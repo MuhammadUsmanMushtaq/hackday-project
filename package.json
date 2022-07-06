@@ -1,0 +1,27 @@
+{
+  "name": "hackday-project",
+  "version": "1.0.0",
+  "description": "Hackday project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MuhammadUsmanMushtaq/hackday-project.git"
+  },
+  "author": "Muhammad Usman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MuhammadUsmanMushtaq/hackday-project/issues"
+  },
+  "homepage": "https://github.com/MuhammadUsmanMushtaq/hackday-project#readme",
+  "dependencies": {
+    "concurrently": "^7.2.2",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
