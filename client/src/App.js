@@ -8,7 +8,7 @@ import './App.css';
 const App = () => {
   const [loading, setLoading] = useState(true);
   const [movies, setMovies] = useState([]);
-  const [searchQuery, setSearchQuery] = useState('Batman');
+  const [searchQuery, setSearchQuery] = useState('Avengers');
   const [errorMessage, setErrorMessage] = useState(null);
 
     useEffect(() => {

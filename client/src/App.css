@@ -1,14 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400;500;600&display=swap');
 
 body {
   font-family: 'Open Sans', sans-serif;
   margin: 0 auto;
   background-color: #eee;
   min-height: 100vh;
+  box-sizing: border-box;
 }
 
 .movie-container {
   display: flex;
-  margin-top: 50px;
+  margin: 50px 0;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;

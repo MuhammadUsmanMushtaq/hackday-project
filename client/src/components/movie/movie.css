@@ -2,7 +2,7 @@
   position: relative;
   width: 280;
   /* min-width: 400px; */
-  height: 410px;
+  height: 400px;
   border-radius: 16px;
   overflow: hidden;
   box-shadow: 5px 5px 30px rgb(0 0 0 / 30%);
@@ -25,9 +25,9 @@
 .hero-date {
   position: absolute;
   width: 100%;
-  bottom: 16%;
+  bottom: 3%;
   text-align: center;
-  background-color: #e8f048bd;
+  background-color: #fafcd0e3;
   color: black;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   padding: 8px 0;

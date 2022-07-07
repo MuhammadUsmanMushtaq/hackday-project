@@ -18,11 +18,18 @@ const Search = ({search}) => {
 return (
       <form className='search'>
         <input
+          className='search-input'
           value={searchValue}
           onChange={handleSearchInputChanges}
           type='text'
+          placeholder='Search your favourite movie' 
         />
-        <input onClick={callSearchFunction} type='submit' value='SEARCH' />
+        <input 
+          onClick={callSearchFunction} 
+          className='submit-input' 
+          type='submit' 
+          value='SEARCH' 
+        />
       </form>
     );
 }

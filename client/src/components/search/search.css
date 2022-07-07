@@ -1,7 +1,8 @@
 .search {
   max-width: 600px;
-  display: block;
+  display: flex;
   margin: 48px auto 32px;
+  gap: 8px;
 }
 
 .search-input {
@@ -13,4 +14,20 @@
   outline: none;
   color: #000;
   font-size: 18px;
+}
+
+.submit-input {
+  background-color: #4285F4 ;
+  color: white;
+  padding: 8px 24px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.submit-input:hover {
+  background-color: #3368FF ;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
