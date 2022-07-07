@@ -1,0 +1,16 @@
+.search {
+  max-width: 600px;
+  display: block;
+  margin: 48px auto 32px;
+}
+
+.search-input {
+  width: 100%;
+  border: 1px solid #000;
+  padding: 8px;
+  height: 40px;
+  border-radius: 6px;
+  outline: none;
+  color: #000;
+  font-size: 18px;
+}

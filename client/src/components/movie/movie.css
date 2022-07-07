@@ -1,0 +1,44 @@
+.hero {
+  position: relative;
+  width: 280;
+  /* min-width: 400px; */
+  height: 410px;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 5px 5px 30px rgb(0 0 0 / 30%);
+}
+
+.hero-profile-img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.hero-description {
+  position: absolute;
+  color: #fff;
+  font-weight: 900;
+  left: 150px;
+  bottom: 26%;
+}
+
+
+.hero-date {
+  position: absolute;
+  width: 100%;
+  bottom: 16%;
+  text-align: center;
+  background-color: #e8f048bd;
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding: 8px 0;
+}
+.hero-date h4 {
+  margin: 0;
+  padding: 0;
+}
+
+.hero-date p {
+  margin: 0;
+  padding: 0;
+}
+/* END CARD DESIGN */

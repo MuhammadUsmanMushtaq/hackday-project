@@ -1,0 +1,17 @@
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 auto;
+  background-color: #eee;
+  min-height: 100vh;
+}
+
+.movie-container {
+  display: flex;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  
+}

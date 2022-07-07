@@ -5,7 +5,9 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "server": "nodemon server.js"
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "repository": {
     "type": "git",
@@ -18,6 +20,7 @@
   },
   "homepage": "https://github.com/MuhammadUsmanMushtaq/hackday-project#readme",
   "dependencies": {
+    "axios": "^0.27.2",
     "concurrently": "^7.2.2",
     "express": "^4.18.1"
   },

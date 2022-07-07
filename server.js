@@ -1,15 +1,16 @@
 const express = require ('express');
+const axios = require ('axios');
 const app = express();
 
-app.get ('/api/customers', (req, res) => {
-  const customers = [
-    { id: 1, firstName: 'Jhon', lastName: 'Cena' },
-    { id: 2, firstName: 'Under', lastName: 'Taker' },
-    { id: 3, firstName: 'Halk', lastName: 'Hogan' }
-  ];
+app.get('/movies/:query', (req, res) => {
+  axios.get(`https://www.omdbapi.com/?s=${req.params.query}&apikey=cbb1aefc`)
+  .then(response => {
+    res.json(response.data)
+  }).catch( _error => {
+    res.json({message: 'Error occured!'})
+  })
+})
 
-  res.json(customers);
-});
 
 port = 5000;
 
