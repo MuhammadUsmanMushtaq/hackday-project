@@ -12,7 +12,6 @@ const Search = ({search}) => {
   const callSearchFunction = (e) => {
       e.preventDefault();
       search(searchValue);
-      console.log(searchValue);
       resetInputField();
     }
 return (

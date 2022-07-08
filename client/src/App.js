@@ -24,7 +24,6 @@ const App = () => {
     const search = searchValue => {
       setLoading(true);
       setErrorMessage(null);
-      console.log(searchValue);
       setSearchQuery(searchValue);
     };
 

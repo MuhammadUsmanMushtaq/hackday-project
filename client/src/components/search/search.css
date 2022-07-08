@@ -3,6 +3,7 @@
   display: flex;
   margin: 32px auto 32px;
   gap: 8px;
+  padding: 0 8px;
 }
 
 .search-input {
