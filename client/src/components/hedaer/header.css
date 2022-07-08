@@ -1,7 +1,27 @@
 .header {
-  padding: 60px;
-  text-align: center;
-  background: #1abc9c;
-  color: white;
-  font-size: 30px;
+  padding: 32px 0;
+  background: black;
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  width: 180px;
+  position: relative;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.fake {
+  position: absolute;
+  color: red;
+  font-size: 38px;
+  transform: rotate(320deg);
+  left: -20%;
+  bottom: 46px;
+  margin: 0;
+  border: 2px solid red;
+  background-color: white;
 }
