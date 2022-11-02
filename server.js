@@ -7,7 +7,7 @@ const app = express();
 app.get('/movies/:query', (req, res) => {
   axios
     .get(
-      `https://www.omdbapi.com/?s=${req.params.query}&apikey=${process.env.REACT_APP_API_KEY}`
+      `https://www.omdbapi.com/?s=${req.params.query}&apikey=${process.env.REACT_APP_KEY}`
     )
     .then((response) => {
       res.json(response.data);
